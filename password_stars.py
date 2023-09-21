@@ -18,4 +18,9 @@ while len(user_password) < minimum_length:
     print("Password must be minimum of 8")
     user_password = input("Password: ")
 
+if user_password:
+    character = len(user_password) * "*"
+    print(character)
+
+
 
