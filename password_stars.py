@@ -11,3 +11,11 @@ error check if the input doesn't match the minimum length
 the program should print "*" same length as the password
 
 """
+minimum_length = 8
+
+user_password = input("Password: ")
+while len(user_password) < minimum_length:
+    print("Password must be minimum of 8")
+    user_password = input("Password: ")
+
+
